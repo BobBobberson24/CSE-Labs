@@ -46,7 +46,7 @@ public class Question3 {
 
                 for (int i = 0; i < contInput.length(); i++) {
 
-
+                    //THE FOLLOWING CODE IS NOT OPTIMAL. JUST USE toLowerCase();
                     if (contInput.charAt(0) == 'W' || contInput.charAt(0) == 'w') {
                         firstChar = true;
                     }
